@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    android:background="@color/ColorRed"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ColorYellow"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="162dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="132dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="117dp"
+            android:layout_marginLeft="117dp"
+            android:layout_marginTop="28dp"
+            app:srcCompat="@drawable/logo"
+            tools:ignore="VectorDrawableCompat" />
+
+        <Button
+            android:id="@+id/ButtonLogin"
+            android:layout_width="145dp"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="117dp"
+            android:layout_marginLeft="117dp"
+            android:layout_marginTop="468dp"
+            android:background="@color/ColorRed"
+            android:text="Login"
+
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="50px" />
+
+        <EditText
+            android:id="@+id/EditUsername"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="222dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginRight="56dp"
+            android:ems="10"
+            android:hint="@string/usernamehint"
+            android:inputType="textPersonName"
+            android:textColor="@color/ColorWhite"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/EditPassword"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="95px"
+            android:layout_marginBottom="229dp"
+            android:fontFamily="sans-serif"
+            android:hint="Fill Password"
+            android:inputType="textPassword"
+            android:textColor="@color/ColorWhite"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

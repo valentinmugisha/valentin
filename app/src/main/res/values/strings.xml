@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">valentin</string>
+    <string name="title_activity_welcome">MUGISHAVALENTIN</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MUGISHAVALENTIN</string>
+    <string name="nav_header_subtitle">mugishavalentin2@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">My Profile</string>
+    <string name="usernamehint">Enter Username</string>
+</resources>
